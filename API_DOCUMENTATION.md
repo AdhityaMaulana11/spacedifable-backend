@@ -37,10 +37,10 @@ Mendaftarkan user baru ke sistem.
 - **Body (JSON):**
   ```json
   {
-    "full_name": "Budi Santoso",
+    "name": "Budi Santoso",
     "email": "budi@example.com",
     "password": "secretpassword",
-    "role": "USER" // (opsional, default: "USER")
+    "disability_type": "Tunarungu"
   }
   ```
 
@@ -60,9 +60,9 @@ Mendapatkan token JWT untuk mengakses endpoint terproteksi.
     "access_token": "eyJhbG...",
     "user": {
       "id": "uuid",
-      "full_name": "Budi Santoso",
+      "name": "Budi Santoso",
       "email": "budi@example.com",
-      "role": "USER"
+      "disability_type": "Tunarungu"
     }
   }
   ```

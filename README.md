@@ -70,4 +70,4 @@ Server lokal akan berjalan di `http://localhost:3000`.
 ---
 
 ## 🛠️ Tim Pengembang
-Dikembangkan dengan sepenuh hati ❤️ untuk kompetisi **IO Fest UNTAR 2026**.
+Dikembangkan dengan sepenuh hati ❤️ oleh: El-Bagreg Team untuk kompetisi **IO Fest UNTAR 2026**.

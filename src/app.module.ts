@@ -8,6 +8,7 @@ import { UsersModule } from './users/users.module';
 import { CoursesModule } from './courses/courses.module';
 import { StorageModule } from './storage/storage.module';
 import { JobsModule } from './jobs/jobs.module';
+import { ArticlesModule } from './articles/articles.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { JobsModule } from './jobs/jobs.module';
     CoursesModule,
     StorageModule,
     JobsModule,
+    ArticlesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
